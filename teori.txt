@@ -1,0 +1,82 @@
+Nama      : Muhammad Faris Fikri
+kelas     : 2C/21090062
+
+1. pertama jika data belum disorting, kita harus melakukan sorting data tersebut menggunakan teknik sorting seperti
+   seperti bubble sort.
+
+   kedua kita tambahkan codingan BST pada codingan yang kita buat supaya kita bisa mencari data yang ingin kita cari
+   menggunakan BST.
+
+   ketiga root akan otomatis mencari data yang kita masukan karena kita menggunakan BST.
+
+
+ 2. data nilai ={2,18,1,0,56,79,98,34,12}
+   length = 9
+   urutan saat p = 5?
+
+   pivot = 2
+
+   #i = 0-1 = -1            j = 0
+   if(this.data[j] < pivot)
+   if(2 < 2)
+   i = -1 + 1 = 0
+   t = this.data[i]         t =2
+   this.data[0] = this.data[0]
+   this.data[0] = t                                {2,18,1,0,56,79,98,34,12}
+
+   #1 = 0    j = 1
+   if(this.data[j] < pivot)
+   if(18 < 2)
+   t = this.data[i+1]        t = this.data[1]
+   this.data[1] = 2
+   2 = t                                           {2,2,1,0,56,79,98,34,12}
+
+   ##p = 1
+     pivot = 2
+
+
+   #i = 0 -1 = -1  j = 0
+   if(2 <2)                                        {2,2,1,0,56,79,98,34,12}
+   i = 0 + 1 =1
+
+   #i = 1  j = 2
+   if(1 < 2)
+   i = 1+1 = 2                                     {2,2,1,0,79,98,34,12}
+
+   #i = 2       j = 3
+   if(12 < 2)
+   t = this.data[i+1]    t = 12
+   this,data[3] = this.data[end]
+   this.data[end] = t
+   0 = t                                          {2,2,1,0,79,98,34,12}
+
+   ##p = 3
+     pivot = 12
+
+   #i = 1    j = 0
+   if(2 < 12)
+   i = 1 + 1 = 2                                  {2,2,1,0,79,98,34,12}
+
+   #i = 2        j = 1
+   if(2 < 12)
+   i = 2 = 1 = 3
+
+   #i = 3     j = 2
+   if(1 , 12)
+   i = 3 +1 = 4
+
+   #i = 4    j = 3
+   if(0 < 12)
+   i = 4 = 1 = 5
+
+   #i = 5    j = 4
+   if(79 < 12)
+   i = 5 + 1 = 6
+
+   #i = 6     j = 5
+   if(98 < 12)
+   i = 6 + 1 = 7
+
+   #i = 7     j = 6
+   if(34 < 12)
+   i = 7 + 1 = 8
